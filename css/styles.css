@@ -1,0 +1,283 @@
+
+body {
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+li {
+    list-style: none;
+  }
+
+#title{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 0% 0% 0%;
+}
+
+.title-position {
+    position: relative;
+}
+
+.title-content {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+/* Navigation bar */
+
+.navbar {
+    padding: 0 2.0% 0;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+
+.title-image {
+    width: 100%;
+}
+
+/* Services section */
+
+#service {
+    padding: 5% 5%;
+    background-color: #ffff;
+    position: relative;
+}
+
+.service-heading {
+    text-align: center;
+    color: rgb(0, 68, 255);
+}
+
+.features-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.i-features {
+    color: #7c72ef;
+    margin-bottom: 1rem;
+}
+
+.i-features:hover {
+    color: #ff4c68;
+}
+
+.h3-features {
+    font-size: 1.5rem;
+}
+
+.p-features {
+    font-family: Montserrat;
+    color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.h2-test {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.image-test {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 30px 30px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 8%;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.c-h1 {
+    background-color: #adb5bd;
+}
+.c-h2 {
+    background-color: #ffe136;
+}
+.c-h3 {
+    background-color: #0074d9;
+}
+
+.card > .card-body {
+    background-color: rgb(240, 252, 255);
+}
+
+.compare {
+    padding: 3% 2%;
+}
+.compare > .row {
+    border-bottom-style: inset;
+   
+}
+
+ .col-6 > p {
+    text-align: left;
+}
+/* Call To Action Section */
+
+#cta {
+    background-color: #4c52ff;
+    text-align: center;
+    color: #ffff;
+    padding: 5% 15%;
+}
+
+.h3-cta {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+    background-color: #ffff;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.footer-flex {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .footer-flex1 {
+    display: flex;
+    gap: 10px;
+  }
+.footer-div {
+    padding-bottom: 4%;
+}
+
+.footer-icon {
+    padding: 0 1%;
+}
+
+/* For contact page */
+
+.req {
+    opacity: 0.5;
+}
+
+.form-div {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.form-title {
+    width: 67%;
+}
+
+#form1 {
+    padding: 2%;
+}
+
+/* For Biz plan page */
+.title-div {
+    background-image: url("https://picsum.photos/400");
+    width: 100%;
+}
+
+.tb-div  {
+    backdrop-filter: blur(10px);
+    background-color: rgb(0, 68, 255, .25);
+}
+.tb-div > div {
+    padding: 5% 15%;
+    color: black;
+}
+.tb-div h1 {
+    padding: 2% 0;
+}
+
+#biz-plan {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media (min-width: 769px) and (max-width: 1038px) {
+    .main-heading {
+        font-size: 2.5rem;
+        line-height: 1.0;
+    }  
+
+}
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 1.5rem;
+        line-height: 1.0;
+    }
+    
+    #cta > h3 {
+        font-size: 1.2rem;
+        line-height: 1.0;  
+    }
+
+    .form-title {
+        width: 100%;
+    }
+
+}
+
+
